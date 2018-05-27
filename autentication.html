@@ -6,25 +6,8 @@
     </head>
     <body>       
         <h1>Autenticação</h1>
+        <h3 id="displayName">Você não está autenticado!</h3>
         <div>
-            <h3 id="displayName">Você não está autenticado!</h3>
-            <form>
-                    <div>
-                        <label for="emailInput">Email</label>
-                        <input type="email" id="emailInput" placeholder="Email">
-                    </div>
-                    <div>
-                            <label for="passwordInput">Senha</label>
-                            <input type="password" id="passwordInput" placeholder="Senha">
-                        </div>
-            
-
-            <button id="authEmailPassButton">Autenticar</button>
-            <button id="createUserButton">Criar nova conta</button>
-
-            </form>
-            </div>
-            <div>
             <br>
 
             <p>
@@ -34,6 +17,7 @@
             <p>
                 <button id="logoutButton">Sair</button>
             </p>
+        
         </div>
 
         <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
